@@ -10,7 +10,9 @@ from search import search
 from isUTR import isUTR
 from searchUTR import searchUTR
 
-f = open('Sequence.txt','r');
+fileName = raw_input("Identify file: ")
+f = open(fileName, 'r');
+#f = open('Sequence.txt','r');
 seq = f.read();
 #seq = seq.split('\n')
 
